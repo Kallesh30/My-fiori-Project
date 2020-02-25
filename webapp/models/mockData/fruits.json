@@ -1,0 +1,418 @@
+{
+	"myTable":[],
+	"fruits": [
+		{
+			"name": "Lemons",
+			"color": "yellow",
+			"type": "Citrus",
+			"benefit": "Rich in antioxidants. It has antibacterial, anticancer, and antidiabetic properties.",
+			"price": 20,
+			"currency": "INR",
+			"stock_status": "Available",
+			"image": "https://cdn.nippys.com.au/nippys-website/site/wp-content/uploads/2016/12/13113305/Fruit_Lemons.jpg"
+
+		}, {
+			"name": "Strawberries",
+			"color": "red",
+			"type": "Berries",
+			"benefit": "Boosts heart health, rich in fiber and potassium.",
+			"price": 51,
+			"currency": "INR",
+			"stock_status": "Out of stock",
+			"image": "https://cdn.shopify.com/s/files/1/1266/9241/articles/10_health_and_wellness_benefits_of_strawberries_Story_Page.jpeg"
+
+		}, {
+			"name": "Oranges",
+			"color": "orange",
+			"type": "Citrus",
+			"benefit": "Rich source of vitamin C, powerful antioxidant, boosts immunity.",
+			"price": 124,
+			"currency": "INR",
+			"stock_status": "Available",
+			"image": "https://www.lgssales.com/wp-content/uploads/2017/07/darling-oranges-1.png"
+
+		}, {
+			"name": "Limes",
+			"color": "green",
+			"type": "Citrus",
+			"benefit": "Rich source of vitamin C, powerful antioxidant, boosts immunity.",
+			"price": 122,
+			"currency": "INR",
+			"stock_status": "Available",
+			"image": "https://www.homestratosphere.com/wp-content/uploads/2019/01/1-18-1.jpg"
+
+		}, {
+			"name": "Grapefruit",
+			"color": "pink",
+			"type": "Citrus",
+			"benefit": "Protect against some cancers, inflammation, and obesity.",
+			"price": 78,
+			"currency": "INR",
+			"stock_status": "Out of stock",
+			"image": "https://fw-d7-freedomworks-org.s3.amazonaws.com/field/image/grapefruit-image.jpg"
+
+		}, {
+
+			"name": "Blackberries",
+			"color": "black",
+			"type": "Berries",
+			"benefit": "High in fiber, help improve gut health and heart health.",
+			"price": 167,
+			"currency": "INR",
+			"stock_status": "Out of stock",
+			"image": "https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/image_nodes/blackberries-dish.jpg"
+
+		},
+		{
+			"name": "Apple",
+			"color": "red",
+			"type": "Pome",
+			"benefit": "Boost heart health and promote weight loss. Lowers risk of cardiovascular disease, certain cancers, and diabetes.",
+			"price": 53,
+			"currency": "INR",
+			"stock_status": "Available",
+			"image": "https://5.imimg.com/data5/LM/DU/MY-22954806/apple-fruit-500x500.jpg"
+
+		},
+		{
+
+			"name": "Apricots",
+			"color": "orange",
+			"type": "Stone Fruit",
+			"benefit": "Low fat, saturated fat free, cholesterol free, sodium free, excellent source of vitamin A and vitamin C, good source of potassium and fiber.",
+			"price": 75,
+			"currency": "INR",
+			"stock_status": "Low in stock",
+			"image": "https://previews.123rf.com/images/atoss/atoss1704/atoss170400112/77097417-apricot-fruits-isolated.jpg"
+
+		},
+		{
+
+			"name": "Pomegranate",
+			"color": "red",
+			"type": "Berries",
+			"benefit": "Called \"superfood\". Helps with strong bones and healthy blood cells",
+			"price": 46,
+			"currency": "INR",
+			"stock_status": "Available",
+			"image": "https://vitamedica.com/wellness-blog/wp-content/uploads/2010/12/Pomegranate.jpg"
+
+		},
+		{
+			"name": "Pineapple",
+			"color": "brown",
+			"type": "Tropical",
+			"benefit": "Promote healthy tissue growth. Helps with reducing sinus.",
+			"price": 63,
+			"currency": "INR",
+			"stock_status": "Available",
+			"image": "http://ae01.alicdn.com/kf/HTB1TsSiQXXXXXclXpXXq6xXFXXXt.jpg"
+
+		},
+		{
+			"name": "Banana",
+			"color": "yellow",
+			"type": "Tropical",
+			"benefit": "Rich in potassium. Helps control heart rate and blood pressure",
+			"price": 108,
+			"currency": "INR",
+			"stock_status": "Available",
+			"image": "https://images-na.ssl-images-amazon.com/images/I/71gI-IUNUkL._SL1500_.jpg"
+
+		},
+		{
+			"name": "Avocado",
+			"color": "green",
+			"type": "Single seeded berry",
+			"benefit": "Helps lower cholesterol levels. Rich in potassium",
+			"price": 176,
+			"currency": "INR",
+			"stock_status": "Call for Availability",
+			"image": "https://foodrevolution.org/wp-content/uploads/iStock-854389420-tashka2000-featured-Recovered.jpg"
+
+		},
+		{
+			"name": "Blueberries",
+			"color": "blue",
+			"type": "Berries",
+			"benefit": "Powerful antioxidant. Protects against heart disease, stroke, cancers, and other diseases.",
+			"price": 72,
+			"currency": "INR",
+			"stock_status": "Ordered Upon Request",
+			"image": "https://cdn-prod.medicalnewstoday.com/content/images/articles/287/287710/blueberries.jpg"
+
+		},
+		{
+			"name": "Mango",
+			"color": "yellow",
+			"type": "Tropical",
+			"benefit": "Good source of antioxidants. Cleanses your skin from deep inside your body.",
+			"price": 93,
+			"currency": "INR",
+			"stock_status": "Call for Availability",
+			"image": "https://previews.123rf.com/images/vainillaychile/vainillaychile1407/vainillaychile140700163/30313765-alphonso-mango-the-king - of -mangoes - mangifera - indica - .jpg "
+		},
+		{
+
+			"name": "Custard Apple",
+			"color": "green",
+			"type": "Exotic",
+			"benefit": "High in potassium and magnesium. Keeps your skin and hair healthy.",
+			"price": 153,
+			"currency": "INR",
+			"stock_status": "Temporarily Out of Stock",
+			"image": "https://5.imimg.com/data5/XB/MY/MY-36411182/custard-apple-500x500.jpg"
+
+		},
+		{
+
+			"name": "Gooseberries",
+			"color": "green",
+			"type": "Berries",
+			"benefit": "Helps control blood sugar, good for heart, high in fiber and low in calories",
+			"price": 176,
+			"currency": "INR",
+			"stock_status": "Available",
+			"image": "https://www.formulatorsampleshop.com/v/vspfiles/photos/FSS16599-2T.jpg"
+
+		},
+
+		{
+			"name": "Guava",
+			"color": "green",
+			"type": "Tropical",
+			"benefit": "Lowers Blood Sugar Levels, Aids Weight Loss, Boost Your Immunity",
+			"price": 172,
+			"currency": "INR",
+			"stock_status": "Available",
+			"image": "https://i.ndtvimg.com/i/2015-11/guava-benefits-625_625x350_71447741866.jpg"
+
+		},
+		{
+
+			"name": "Lychee",
+			"color": "red",
+			"type": "Citrus",
+			"benefit": "good amount of antioxidant Vitamin C, Vitamin B-complex",
+			"price": 174,
+			"currency": "INR",
+			"stock_status": "Discontinued",
+			"image": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/lychees-1296x728-feature.jpg"
+
+		},
+		{
+
+			"name": "Papaya",
+			"color": "yellow",
+			"type": "Tropical",
+			"benefit": "Lowers cholesterol. Papaya is rich in fibre, Vitamin C and antioxidants which prevent cholesterol build up in your arteries.",
+			"price": 83,
+			"currency": "INR",
+			"stock_status": "Available",
+			"image": "https://cdn-prod.medicalnewstoday.com/content/images/articles/275/275517/a-papaya-cut-in-half.jpg"
+
+		},
+		{
+			"name": "Sapota",
+			"color": "brown",
+			"type": "Tropical",
+			"benefit": "Helps in digestion, good for the bones, controls blood pressure.",
+			"price": 71,
+			"currency": "INR",
+			"stock_status": "Available",
+			"image": "https://i.ndtvimg.com/i/2016-06/sapota_625x350_61466151843.jpg"
+
+		}
+	],
+	"supplier": [{
+			"name": "Mithuna Foods Company India",
+			"location": "Anna Nagar West Extension",
+			"city": "Chennai",
+			"since_when": "1929",
+			"specialization": [
+				"Papaya",
+				"Mangoes"
+			],
+			"contact_person": "Raj Aryan",
+			"contact_no": "9812312345"
+		},
+		{
+			"name": "Saraswati International",
+			"location": "Bhandup West",
+			"city": "Mumbai",
+			"since_when": "1949",
+			"specialization": [
+				"Apricots",
+				"Figs",
+				"Avocado"
+			],
+			"contact_person": "Vijay Chauhan",
+			"contact_no": "8412392345"
+
+		},
+		{
+			"name": "Hari Om International",
+			"location": "Hi-tech City",
+			"city": "Hyderabad",
+			"since_when": "1999",
+			"specialization": [
+				"Mangoes"
+			],
+			"contact_person": "Gabbar Singh",
+			"contact_no": "9852312876"
+
+		},
+		{
+			"name": "Fruit Vruit",
+			"location": "Goregaon",
+			"city": "Mumbai",
+			"since_when": "2012",
+			"specialization": [
+				"Guava",
+				"Apples",
+				"Mangoes"
+			],
+			"contact_person": "Prem Pujari",
+			"contact_no": "8867512345"
+
+		},
+		{
+			"name": "The Fruit Store",
+			"location": "Karkhana",
+			"city": "Hyderabad",
+			"since_when": "1985",
+			"specialization": [
+				"Exotic",
+				"Tropical"
+			],
+			"contact_person": "Mohd. Khan",
+			"contact_no": "6741312345"
+
+		},
+		{
+			"name": "Real fruits",
+			"location": "Palace Hall",
+			"city": "Jaipur",
+			"since_when": "1990",
+			"specialization": [
+				"Oranges",
+				"Pineapple",
+				"Avocado",
+				"Apples",
+				"Oranges"
+			],
+			"contact_person": "Anthony Gonsalves",
+			"contact_no": "981267513"
+
+		},
+		{
+			"name": "Patel House of Fruits",
+			"location": "Gandhi Marg",
+			"city": "Gandhinagar",
+			"since_when": "2007",
+			"specialization": [
+				"Mangoes"
+			],
+			"contact_person": "Ginny Johnny",
+			"contact_no": "9812765412"
+
+		},
+		{
+			"name": "Sultan Foods",
+			"location": "Mysore",
+			"city": "Mysore",
+			"since_when": "2014",
+			"specialization": [
+				"Custard Apples"
+			],
+			"contact_person": "Sudeep Makkhi",
+			"contact_no": "3145765412"
+
+		},
+		{
+			"name": "Nizam Fruit Shop",
+			"location": "Mozamjahi Market",
+			"city": "Hyderabad",
+			"since_when": "2017",
+			"specialization": [
+				"Mangoes"
+			],
+			"contact_person": "Ghajini",
+			"contact_no": "9812765124"
+
+		},
+
+		{
+			"name": "Hari Vithal Export Import",
+			"location": "Howrah Bridge",
+			"city": "Kolkata",
+			"since_when": "2007",
+			"specialization": [
+				"Bananas"
+			],
+			"contact_person": "Humpty Sharma",
+			"contact_no": "8760981234"
+		}
+	],
+	"cities": [{
+			"name": "Nagpur",
+			"state": "Maharashtra",
+			"country": "India",
+			"known_for": "Oranges"
+		},
+		{
+			"name": "Jaipur",
+			"state": "Rajasthan",
+			"country": "India",
+			"known_for": "Forts"
+		},
+		{
+			"name": "Bengaluru",
+			"state": "Karnataka",
+			"country": "India",
+			"known_for": "IT hub"
+		},
+		{
+			"name": "Sydney",
+			"state": "Victoria",
+			"country": "Australia",
+			"known_for": "Opera House"
+		},
+		{
+			"name": "San Francisco",
+			"state": "California",
+			"country": "USA",
+			"known_for": "Golden Gate Bridge"
+		},
+		{
+			"name": "Los Angeles",
+			"state": "California",
+			"country": "USA",
+			"known_for": "Hollywood"
+		},
+		{
+			"name": "Mumbai",
+			"state": "Maharashtra",
+			"country": "India",
+			"known_for": "Bollywood"
+		},
+		{
+			"name": "Walldorf",
+			"state": " Baden-Württemberg",
+			"country": "Germany",
+			"known_for": "SAP"
+		},
+		{
+			"name": "Jamshedpur",
+			"state": "Jharkhand",
+			"country": "India",
+			"known_for": "Tata Steels"
+		},
+		{
+			"name": "Ratnagiri",
+			"state": "Maharashtra",
+			"country": "India",
+			"known_for": "Alphonso Mangoes"
+		}
+	]
+}

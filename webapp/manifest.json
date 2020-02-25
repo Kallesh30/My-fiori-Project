@@ -1,0 +1,63 @@
+{
+	"_version": "1.6.0",
+	"sap.app": {
+		"id": "tcs.hr.payroll",
+		"type": "application",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"tags": {
+			"keywords": ["{{keyword1}}", "{{keyword2}}"]
+		},
+		"ach": "HR-PR"
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": ["sap_bluecrystal", "sap_highcontrast", "sap_belize"]
+	},
+	"sap.ui5": {
+		"dependencies": {
+			"minUI5Version": "1.56.10",
+			"libs": {
+				"sap.m": {
+					"minVersion": "1.56.10"
+				},
+				"sap.ui.layout": {
+					"minVersion": "1.56.10"
+				}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"resources": {
+			"css": [{
+				"uri": "css/mystyle.css",
+				"id": ""
+			}]
+		},
+		"models": {
+			"": {
+				"type": "sap.ui.model.json.JSONModel",
+				"settings": {},
+				"uri": "models/mockData/fruits.json",
+				"preload": false
+			},
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {},
+				"uri": "i18n/i18n.properties",
+				"preload": true,
+				"async": true
+			}
+		}
+	}
+}

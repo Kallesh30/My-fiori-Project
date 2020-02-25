@@ -1,0 +1,51 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="tcs.hr.payroll.controller.View1"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Page 1">
+		<headerContent>
+			<Button icon="sap-icon://action" press="onNext"></Button>
+		</headerContent>
+		<customHeader>
+			<Toolbar>
+				<SearchField id="zkas" search="onSearch" liveChange="onSearch"/>
+			</Toolbar>
+		</customHeader>
+		<content>
+			<!--<Button text="Next" press="onNext"></Button>-->
+			<List mode="SingleSelectMaster" items="{
+					path: '/fruits'
+			}" id="idList" delete="onDelete" selectionChange="onItemPress">
+				<items>
+					<ObjectListItem  intro="{type}" title="{name}" icon="{image}"
+								    number="{price}" numberUnit="{currency}">
+						<attributes>
+							<ObjectAttribute text="{benefit}"></ObjectAttribute>
+						</attributes>
+						<firstStatus>
+							<ObjectStatus text="{stock_status}"></ObjectStatus>
+						</firstStatus> 
+					</ObjectListItem>
+					<!--<DisplayListItem label="Apple" value="antibiotic for health"></DisplayListItem>
+					<StandardListItem icon="https://images-na.ssl-images-amazon.com/images/I/61fZ%2BYAYGaL._SL1500_.jpg" title="Banana" description="High source of potasium"></StandardListItem>
+					<InputListItem>
+						<HBox>
+							<Label text="How many pineapples you want"></Label>
+							<Input></Input>
+						</HBox>
+					</InputListItem>
+					<CustomListItem>
+						<Text text="Do you want CoD"></Text>
+						<Switch></Switch>
+					</CustomListItem>
+					<ObjectListItem title="Blueberries" intro="Are Low in Calories But High in Nutrients" 
+					icon="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/proven-benefits-of-blueberries-1296x728-feature.jpg" 
+					number="1500 INR" numberUnit="per Kg" ></ObjectListItem>
+					<FeedListItem text="Hey Anubhav, happy new year!" icon="https://www.trumpbuttons.com/wp-content/uploads/2019/07/IMG_9489-e1562805869965.jpg" sender="Donald Trumh" timestamp="Jan 1st 2020"></FeedListItem>
+					<ActionListItem text="Order Now!!"></ActionListItem>-->
+				</items>
+			</List>
+		</content>
+		<footer>
+			<Toolbar></Toolbar>
+		</footer>
+	</Page>
+</mvc:View>

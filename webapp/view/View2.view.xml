@@ -1,0 +1,51 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" 
+			xmlns:f="sap.ui.layout.form" controllerName="tcs.hr.payroll.controller.View2"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Page 2">
+		
+		<content>
+			<!--<Button text="Back" press="onBack"></Button>-->
+			<ObjectHeader title="{name}" intro="{benefit}" number="{price}" numberUnit="{currency}"
+						  icon="{image}"></ObjectHeader>
+			<IconTabBar>
+				<items>
+					<IconTabFilter key="MD" text="More Details" icon="sap-icon://hint">
+						<content>
+							<core:Fragment fragmentName="tcs.hr.payroll.fragments.moreData" type="XML"></core:Fragment>
+						</content>
+					</IconTabFilter>
+					<IconTabFilter key="SL" text="Suppliers" icon="sap-icon://supplier">
+						<content>
+							<core:Fragment fragmentName="tcs.hr.payroll.fragments.supplierTab" type="XML"></core:Fragment>
+						</content>
+					</IconTabFilter>
+					<IconTabFilter key="CT" text="Cities" icon="sap-icon://home">
+						<Select items="{/cities}" id="idCity" change="onDropdownChange">
+							<items>
+								<core:Item text="{name}" key="{name}"></core:Item>
+							</items>
+						</Select>
+						<ComboBox items="{/cities}" id="idCity2" change="onDropdownChange">
+							<items>
+								<core:Item text="{name}" key="{name}"></core:Item>
+							</items>
+						</ComboBox>
+						<MultiComboBox items="{/cities}" id="idCity3" selectionChange="onMulti">
+							<items>
+								<core:Item text="{name}" key="{name}"></core:Item>
+							</items>
+						</MultiComboBox>
+					</IconTabFilter>
+				</items>
+			</IconTabBar>						  
+						  
+		</content>
+		<footer>
+			<Toolbar>
+				<ToolbarSpacer />
+				<Button text="Approve" type="Accept" press="onApprove"></Button>
+				<Button text="Reject" type="Reject"></Button>
+			</Toolbar>
+		</footer>
+	</Page>
+</mvc:View>
